@@ -25,4 +25,9 @@
 
 1.npm install
 
-2.node app.js
+2.node spiderPic.js
+
+
+spiderPic.js是爬取页面，然后根据dom节点找到每个图片的对应地址；然后将所有的全load到本地；
+loadPic.js是已有所有的图片地址，直接通过download方法下载到本地；
+
